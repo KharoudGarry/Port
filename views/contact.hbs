@@ -1,0 +1,30 @@
+<section class="contact-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card shadow-lg border-0" style="background-color: #ffcccc;">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-danger">Contact Me</h2>
+                        <p class="card-text text-justify lead">Feel free to reach out using the form below:</p>
+                        
+                        <form action="/contact" method="POST">
+                            <div class="form-group">
+                                <label for="name" class="text-danger">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-danger">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="text-danger">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

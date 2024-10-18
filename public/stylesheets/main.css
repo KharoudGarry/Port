@@ -1,0 +1,87 @@
+.navbar {
+    background-color: #ffcccc;
+    padding: 3em;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    color: #007bff !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff6666 !important;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-section {
+    padding: 80px 0;
+    background-color: #ffebeb;
+  }
+  
+  .projects-section {
+    padding: 80px 0;
+    background-color: #e6f7ff;
+  }
+  
+  .contact-section {
+    padding: 80px 0;
+    background-color: #ffebeb;
+  }
+  
+  .project-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    background-color: #fff5f5;
+  }
+  
+  .project-card .card-header {
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card:hover .card-header {
+    background-color: #ffcccc;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    font-size: 18px;
+  }
+  
+  .btn-primary {
+    background-color: #00B7FF;
+    border-color: #00B7FF;
+  }
+  
+  .btn-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .footer {
+    background-color: #ffcccc;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer a {
+    color: #007bff;
+  }
+  
+  .footer a:hover {
+    color: #ff6666;
+    text-decoration: none;
+  }
+  
